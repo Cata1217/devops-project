@@ -10,8 +10,8 @@ environment {
     stages {
         stage('build') {
             steps {
-                dir('tweet-trend-new') {  // Schimbă în directorul care conține pom.xml
-                    sh 'mvn clean deploy'
+                //dir('tweet-trend-new') {  // Schimbă în directorul care conține pom.xml
+                sh 'mvn clean deploy'
                 }
             }
         }
