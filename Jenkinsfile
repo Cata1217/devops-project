@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> stage
 def registry = 'https://cata1217.jfrog.io'
 pipeline {
     agent {
